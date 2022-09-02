@@ -5,7 +5,10 @@ object trajeDeBruja {
 } 
 
 object barba {
-	
+	var longitud = 1
+	method nivelSusto(){
+		return 5*longitud
+	}
 }
 
 object mascaraDracula {
